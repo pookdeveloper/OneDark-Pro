@@ -1,9 +1,9 @@
 {
-  "name": "Material-theme",
-  "displayName": "One Dark Pro",
-  "description": "Atom's iconic One Dark theme for Visual Studio Code",
+  "name": "One Dark Pro Pook",
+  "displayName": "One Dark Pro Pook",
+  "description": "One Dark Pro Pook",
   "version": "2.25.3",
-  "publisher": "zhuangtongfa",
+  "publisher": "pookdeveloper",
   "bugs": {
     "url": "https://github.com/Binaryify/OneDark-Pro/issues"
   },
@@ -22,9 +22,6 @@
     "build": "node build.js",
     "docs": "docsify serve docs"
   },
-  "pre-commit": [
-    "build"
-  ],
   "prettier": {
     "singleQuote": true,
     "semi": false
@@ -32,17 +29,17 @@
   "contributes": {
     "themes": [
       {
-        "label": "One Dark Pro",
+        "label": "One Dark Pro Pook",
         "uiTheme": "vs-dark",
         "path": "./themes/OneDark-Pro.json"
       },
       {
-        "label": "One Dark Pro Vivid",
+        "label": "One Dark Pro Vivid  Pook",
         "uiTheme": "vs-dark",
         "path": "./themes/OneDark-Pro-vivid.json"
       },
       {
-        "label": "One Dark Pro Bold",
+        "label": "One Dark Pro Bold  Pook",
         "uiTheme": "vs-dark",
         "path": "./themes/OneDark-Pro-bold.json"
       }
