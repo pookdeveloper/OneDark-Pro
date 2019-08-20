@@ -2,7 +2,7 @@
     "name": "One Dark Pro Pook",
     "displayName": "One Dark Pro Pook",
     "description": "One Dark Pro Pook",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.37.0"
     },
