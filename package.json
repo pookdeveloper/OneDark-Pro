@@ -1,7 +1,7 @@
 {
-    "name": "pook-theme",
-    "displayName": "pook theme",
-    "description": "pook theme",
+    "name": "One Dark Pro Pook",
+    "displayName": "One Dark Pro Pook",
+    "description": "One Dark Pro Pook",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.37.0"
@@ -12,7 +12,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "pook theme",
+                "label": "One Dark Pro Pook",
                 "uiTheme": "vs-dark",
                 "path": "./themes/pook theme-color-theme.json"
             }
