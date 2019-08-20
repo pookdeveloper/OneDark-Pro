@@ -1,6 +1,6 @@
 <img src='icon.svg' style="height:80px;">
 
-# one-dark-pro-pook
+# One Dark Pro Pook
 
 > Atom's iconic One Dark theme for Visual Studio Code
 

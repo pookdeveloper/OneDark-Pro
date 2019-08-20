@@ -1,21 +1,68 @@
 {
-    "name": "one-dark-pro-pook",
-    "displayName": "one-dark-pro-pook",
-    "description": "one-dark-pro-pook",
-    "version": "0.0.2",
-    "engines": {
-        "vscode": "^1.37.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "one-dark-pro-pook",
-                "uiTheme": "vs-dark",
-                "path": "./themes/pook theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "Material-theme",
+  "displayName": "One Dark Pro Pook",
+  "description": "Atom's iconic One Dark theme for Visual Studio Code",
+  "version": "2.26.3",
+  "publisher": "pookdeveloper",
+  "bugs": {
+    "url": "https://github.com/Binaryify/OneDark-Pro/issues"
+  },
+  "homepage": "https://binaryify.github.io/OneDark-Pro/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Binaryify/OneDark-Pro"
+  },
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "docs": "docsify serve docs"
+  },
+  "pre-commit": [
+    "build"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Dark Pro Pook",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-Pro.json"
+      },
+      {
+        "label": "One Dark Pro Pook Vivid",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-Pro-vivid.json"
+      },
+      {
+        "label": "One Dark Pro Pook Bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneDark-Pro-bold.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "one dark",
+    "onedark",
+    "one dark pro",
+    "theme",
+    "atom"
+  ],
+  "devDependencies": {
+    "lodash": "^4.17.11",
+    "docsify-cli": "^4.3.0",
+    "pre-commit": "^1.2.2"
+  },
+  "galleryBanner": {
+    "color": "#2d323b",
+    "theme": "dark"
+  }
 }
