@@ -1,7 +1,7 @@
-# One Dark Pro Pook
+# One-Dark-Pro-Pook
 
 ## About
-[One Dark Pro Pook](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is based on Atom's default One Dark theme, and is one of the most downloaded themes for VS Code. This document will show you how to install the theme on VS Code, and how to develop and contribute to this project.
+[One-Dark-Pro-Pook](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is based on Atom's default One Dark theme, and is one of the most downloaded themes for VS Code. This document will show you how to install the theme on VS Code, and how to develop and contribute to this project.
 ![screenshot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwjzw3c8fj31kw101adb.jpg)
 
 
@@ -11,12 +11,12 @@
 ![Screenshot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwkrv2rorj31kw16odhw.jpg)
 
 ## Install
-Using the Extensions menu, search for **'One Dark Pro Pook'**. Don't forget to apply the theme (see below).
+Using the Extensions menu, search for **'One-Dark-Pro-Pook'**. Don't forget to apply the theme (see below).
 
 ![ScreenShot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwijszewzj31kw101doj.jpg)
 
 ## Apply
-Press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, you will see a theme selection interface. Choose **'One Dark Pro Pook'**.
+Press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, you will see a theme selection interface. Choose **'One-Dark-Pro-Pook'**.
 
 ![ScreenShot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwilva97dj31kw101k08.jpg)
 
@@ -186,7 +186,7 @@ or use the setting `editor.tokenColorCustomizations`
 
 ```json
 "editor.tokenColorCustomizations":{
-    "[One Dark Pro Pook]": {
+    "[One-Dark-Pro-Pook]": {
       "textMateRules": [
         {
           "scope":["source.python"],
