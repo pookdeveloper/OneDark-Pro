@@ -33,6 +33,21 @@ Then run
 `npm run docs` to serve the documentation
 locally at `localhost:3000`.
 
+
+# Install locally
+https://medium.com/@sanik.bajracharya/vscode-how-to-create-your-own-extension-pack-483385644c29
+
+
+- npm install -g yo generator-code
+
+- vsce package
+
+- Select Extensions (Ctrl + Shift + X)
+- Open “More Action” menu(ellipsis on the top) and click “Install from VSIX…”
+- Locate VSIX file and select
+- Reload VSCode
+
+
 # ScreenShot
 
 ![Screenshot](https://camo.githubusercontent.com/48f39d862900e54913410490e566a9e761bc5ad5/68747470733a2f2f7773332e73696e61696d672e636e2f6c617267652f303036744e6252776779316676776b7236693139396a33316b7731366f7461742e6a7067)
@@ -108,3 +123,8 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/onedark-pro#sponsor" target="_blank">
 <img src="https://opencollective.com/onedark-pro/sponsor.svg?width=890">
 </a>
+
+
+
+
+
