@@ -36,7 +36,7 @@ locally at `localhost:3000`.
 
 # Install locally
 https://medium.com/@sanik.bajracharya/vscode-how-to-create-your-own-extension-pack-483385644c29
-
+https://code.visualstudio.com/api/references/theme-color
 
 - npm install -g yo generator-code
 
